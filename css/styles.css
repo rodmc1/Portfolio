@@ -20,6 +20,9 @@ body, html {
     background-color: white;
        
 }
+.navbar-toggle {
+  float: left !important;
+}
 #me {
     height: 300px;
     border-radius: 2%;
