@@ -26,9 +26,8 @@ body, html {
 }
 .map-responsive{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom:37.25%;
     position:relative;
-    height:0;
 }
 .map-responsive iframe{
     left:0;
@@ -90,7 +89,12 @@ body, html {
 .wrapper-abt {
     max-width: 80%;
     margin: auto !important;
-}
+} 
+iframe {
+      width: 1200px !important;
+      height: 300px !important;
+      margin-top: 6em !important;
+    }
 .abt-h2 {
     text-align: center;
     margin-top: 1em
@@ -179,12 +183,6 @@ h3 {
 #contact {
     background-color: #F7F7F7;
 
-}
-iframe {
-    width: 1200px;
-    max-height: 300px;
-    margin-top: 4em;
-    margin-bottom: 2em;
 }
 .contact-info {
     text-align: left;
